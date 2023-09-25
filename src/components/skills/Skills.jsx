@@ -4,11 +4,12 @@ import "./skills.css"
 const Skills = () => {
   return (
     <section className="skills setion" id="skills">
-      <h2 className="section__title">Skills</h2>
-      <span className="section__subtitle">My tehnical level</span>
+    <h2 className="section__title">Skills</h2>
+    <span className="section__subtitle">My tehnical level</span>
        
       <div className="timeline">
         <div>
+      
           <div className="skill__container left-container skill__box">
             <h2>HTML</h2>
             <i className="skill__icon uil uil-html5"></i>
@@ -44,9 +45,10 @@ const Skills = () => {
             <i className="skill__icon uil uil-medium-m"></i>
             <span className="right__container__arrow"></span>
           </div>
+          
         </div>
       </div>
-    </section>
+      </section>
   );
 };
 
