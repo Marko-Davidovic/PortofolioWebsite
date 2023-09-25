@@ -137,10 +137,11 @@
     width: 42px;
     top: 0.8rem;
   }
+  
   .home__description {
     max-width: initial;
     margin-bottom: var(--mb-2-5);
-  }
+  } 
 
   .home__img {
     width: 250px;
